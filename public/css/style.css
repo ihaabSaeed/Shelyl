@@ -1,5 +1,6 @@
 body{
 	margin:0;
+
 }
 /*==============NavBar===========*/
 .Nav__bg{
@@ -37,14 +38,14 @@ transition: all 1s;
 }
 }
 /*================Header Section======*/
-/*.Header__section{
+.Header__section{
 
    
   
 	background-repeat: no-repeat;
 	
 }
-
+/*
 
 .Header__section div h1{
 	margin-top: -500px;
@@ -69,7 +70,7 @@ transition: all 1s;
 }
 .btns:hover{
 	color:black;
-}
+}*/
 .btn__sell,
 .btn__sell:focus,
 .btn__sell:active,
@@ -77,7 +78,7 @@ transition: all 1s;
 {
  
     background-color:#a9c52f ;
-    border-color: #129CF3;
+    border-color: white;
   
 
    
@@ -95,15 +96,15 @@ transition: all 1s;
 
 }
 .btn__sell:hover {
-    background-color: #ffffff;
+    background-color: transparent;
       
-}*/
+}
 
 
 
 /*===============BodySection==========*/
 .body__Section{
-	margin-top: 300px;
+/*	margin-top: 10px;*/
 	overflow-x: hidden;
 }
 .card__pad{

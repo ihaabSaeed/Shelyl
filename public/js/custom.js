@@ -10,13 +10,13 @@ $(document).ready(function(){
         if($(window).scrollTop() < 80 ) {
             
             $('.navbar').css ({
-               'margin-top': '-100px',
-                'opacity': '0'
+               'margin-top': '0px',
+                'opacity': '1'
                 
             });
             
             $('.Nav__bg').css({
-                'background-color': 'rgba(169, 197 , 47, 1)'
+                'background-color': 'rgba(169, 197 , 47, 0)'
                 
             });
             
