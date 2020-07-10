@@ -42,15 +42,17 @@ transition: all 1s;
 /*================Header Section======*/
 .Header__section{
 
-   
-	background-image: url("../img/back.png");
+   background-image: url("../img/back.png");
 	width: 100%;
+    background-clip: content-box;
+	
     
      margin-top: -300px;
   	height: 700px;
 
 	
 }
+
 /*
 
 .Header__section div h1{
