@@ -1,4 +1,4 @@
- 
+
 $(document).ready(function(){
    
     'use strict';
@@ -83,11 +83,11 @@ $(document).ready(function() {
     'use strict';
     
     
-    $('.navbar-link  a').click(function(){
+    $('.navbar-nav li a').click(function(){
         
         'use strict';
         
-        $('.navbar-link a').parent().removeClass("active");
+        $('.navbar-nav li a').parent().removeClass("active");
         
         $(this).parent().addClass("active");
     
@@ -113,10 +113,10 @@ $(document).ready(function() {
             
             if ($(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei) {
              
-                $(".navbar-link a[href='#" + bb + "']").parent().addClass("active");
+                $(".navbar-nav li a[href='#" + bb + "']").parent().addClass("active");
            
             } else {
-                $(".navbar-link a[href='#" + bb + "']").parent().removeClass("active");
+                $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
                 
             }
             
@@ -190,8 +190,4 @@ $(document).ready(function() {
     new WOW().init();
     
 });
-
-
-
-
 
