@@ -3,7 +3,15 @@ body{
 }
 /*==============NavBar===========*/
 .Nav__bg{
-	background-color: #a9c52f;
+	background-color: transparent;
+	border-color: #444;
+	z-index: 110;
+	transition: all 1s;
+
+}
+.Nav__a {
+color: black;
+transition: all 1s;
 }
 .Nav__Text{
 	font-size: 1.2rem;
@@ -29,12 +37,15 @@ body{
 }
 }
 /*================Header Section======*/
-.Header__section{
-	margin-top: 10px;
-    
+/*.Header__section{
+
+   
+  
 	background-repeat: no-repeat;
 	
 }
+
+
 .Header__section div h1{
 	margin-top: -500px;
 	margin-left: 3%;
@@ -50,6 +61,46 @@ body{
 	height: 600px;
 	width: 100%;
 }
+
+.btns{
+	color: white;
+
+	margin: 200px 30px 0 30% ;
+}
+.btns:hover{
+	color:black;
+}
+.btn__sell,
+.btn__sell:focus,
+.btn__sell:active,
+.btn__sell:visited
+{
+ 
+    background-color:#a9c52f ;
+    border-color: #129CF3;
+  
+
+   
+   
+    margin-top: 300px;
+    margin-left:1%;
+
+    font-size: 19px;
+   
+    border-radius: 30px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+     -o-transition: all 1s;
+
+}
+.btn__sell:hover {
+    background-color: #ffffff;
+      
+}*/
+
+
+
 /*===============BodySection==========*/
 .body__Section{
 	margin-top: 300px;
@@ -79,5 +130,17 @@ body{
 	background-color: #a9c52f;
 	height: 100px;
 	margin-top: 7%;
+
+}
+.footer div p{
+	padding-top: 35px;
+	color: white;
+	margin:auto;
+
+}
+.footer div p a{
+	text-decoration: none;
+	color: white;
+
 }
 
