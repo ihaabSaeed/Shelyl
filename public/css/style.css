@@ -1,0 +1,83 @@
+body{
+	margin:0;
+}
+/*==============NavBar===========*/
+.Nav__bg{
+	background-color: #a9c52f;
+}
+.Nav__Text{
+	font-size: 1.2rem;
+}
+.cart__icon{
+	margin-top: 15px;
+	color: white;
+}
+.cart__icon:hover{
+	color: #849925;
+	cursor: pointer;
+}
+
+@media  (min-width: 1100px){
+	.signup__mr{
+	margin-left:10px;
+}
+}
+
+@media  (max-width: 700px){
+	.signup__mr{
+	margin-left:0px;
+}
+}
+/*================Header Section======*/
+.Header__section{
+	margin-top: 10px;
+    
+	background-repeat: no-repeat;
+	
+}
+.Header__section div h1{
+	margin-top: -500px;
+	margin-left: 3%;
+	font-weight: bold;
+	color: white;
+}
+.img{
+	height: 200px;
+	width: 300px;
+
+}
+.Header__section div img{
+	height: 600px;
+	width: 100%;
+}
+/*===============BodySection==========*/
+.body__Section{
+	margin-top: 300px;
+	overflow-x: hidden;
+}
+.card__pad{
+	padding: 4% 4% 0 4%;
+
+}
+.card__shadow{
+	box-shadow: 3px 3px 3px gray;
+}
+.card__hover:hover{
+	background-color: #a9c52f;
+	color: white;
+	cursor: pointer;
+	
+
+}
+/*================Pagination================*/
+.Pagination{
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+/*================Footer================*/
+.footer{
+	background-color: #a9c52f;
+	height: 100px;
+	margin-top: 7%;
+}
+
