@@ -12,6 +12,7 @@ body{
 	transition: all 1s;
 
 }
+
 .btn__all{
 	background-color: #17b978;
 		border-color: black;
@@ -105,6 +106,7 @@ transition: all 1s;
 .btn__sell{
  margin-top: -100px !important;
 }}
+
 .btn__sell,
 .btn__sell:focus,
 .btn__sell:active,
