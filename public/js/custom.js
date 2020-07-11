@@ -7,7 +7,7 @@ $(document).ready(function(){
         
         'use strict';
         
-        if($(window).scrollTop() < 80 ) {
+        if($(window).scrollTop() < 80) {
             
             $('.navbar').css ({
                'margin-top': '0px',
@@ -16,7 +16,7 @@ $(document).ready(function(){
             });
             
             $('.Nav__bg').css({
-                'background-color': 'rgba(169, 197 , 47, 0)'
+                'background-color': 'rgba(149, 229 , 119, 1)'
                 
             });
             
