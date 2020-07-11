@@ -12,6 +12,18 @@ body{
 	transition: all 1s;
 
 }
+.btn__all{
+	background-color: #17b978;
+		border-color: black;
+}
+.btn__ou{
+	border-color: black;
+	color: black;
+}
+.btn__ou:hover{
+	background-color: #17b978;
+	color:black;
+}
 .Nav__a {
 color: black;
 transition: all 1s;
@@ -24,7 +36,7 @@ transition: all 1s;
 	color: white;
 }
 .cart__icon:hover{
-	color: #849925;
+	color: #17b978;
 	cursor: pointer;
 }
 
@@ -45,12 +57,17 @@ transition: all 1s;
    background-image: url("../img/back.png");
 	width: 100%;
     background-clip: content-box;
-	background-size: 1800px 800px;
+	background-size: 1800px 900px;
 	background-repeat: no-repeat;
-    
-     margin-top: -300px;
+    margin-top: -300px;
   	height: 700px;
 
+}
+.btn__lg{
+	background-color: black;
+	width: 100px;
+	height: 30px;
+	color: white;
 }
 
 /*
@@ -79,15 +96,24 @@ transition: all 1s;
 .btns:hover{
 	color:black;
 }*/
-/*.btn__sell,
+@media (min-width: 1200px){
+.btn__sell{
+ margin-top: -400px !important;
+}
+}
+@media (max-width: 1100px){
+.btn__sell{
+ margin-top: -100px !important;
+}}
+.btn__sell,
 .btn__sell:focus,
 .btn__sell:active,
 .btn__sell:visited
 {
  
-    background-color:#a9c52f ;
+    background-color:#17b978 ;
     border-color: white;
-  
+    color: white;
 
    
    
@@ -96,7 +122,7 @@ transition: all 1s;
 
     font-size: 19px;
    
-    border-radius: 30px;
+    border-radius: 10px;
     transition: all 1s;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -104,11 +130,11 @@ transition: all 1s;
 
 }
 .btn__sell:hover {
-    background-color: transparent;
+    background-color: white;
       
 }
 
-*/
+
 
 /*===============BodySection==========*/
 .body__Section{
