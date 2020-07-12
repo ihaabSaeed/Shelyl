@@ -16,9 +16,10 @@ body{
 .btn__all{
 	background-color: #17b978;
 		border-color: black;
+font-family: 'Open Sans', sans-serif;
 }
 .btn__ou{
-	border-color: black;
+	border-colo_r: black;
 	color: black;
 }
 .btn__ou:hover{
@@ -117,7 +118,7 @@ transition: all 1s;
     border-color: black;
     color: white;
 
-   
+   font-family: 'Open Sans', sans-serif;
    
     margin-top: 300px;
     margin-left:1%;
@@ -142,19 +143,46 @@ transition: all 1s;
 .body__Section{
 /*	margin-top: 10px;*/
 	overflow-x: hidden;
+	margin-top: -340px;
+	
 }
+
 .card__pad{
 	padding: 4% 4% 0 4%;
 
 }
 .card__shadow{
 	box-shadow: 3px 3px 3px gray;
+
 }
 .card__hover:hover{
 	background-color: #a9c52f;
 	color: white;
 	cursor: pointer;
+
+}
+
+.card__header__hover{
+	background-color:transparent; 
+	border-color: transparent;
+	color: white;
+	font-size: 30px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+.btn__header{
+	background-color:#17b978;
+
+   font-family: 'Open Sans', sans-serif;
+
+}
+.btn__header:hover{
+	background-color:white;
 	
+   color: black;
+   transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+     -o-transition: all 2s;
 
 }
 

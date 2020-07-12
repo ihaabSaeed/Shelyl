@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+const bodyPareser = require('body-parser');
 
 
 const app = express()
@@ -12,7 +13,14 @@ const publicDirectoryPath = path.join(__dirname , '../public')
   app.get("/Login",function(req,res){
  	res.sendFile(__dirname+"/Login.html")
 })
+
+
+
 app.use(express.static(publicDirectoryPath))
 app.listen(port,()=>{
 	console.log('Server on 3000 avialible' + port)
-})
+});
+
+
+
+
