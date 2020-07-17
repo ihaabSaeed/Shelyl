@@ -28,6 +28,35 @@
       <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+   <!--  ===============================================================================
+    ===============================================================================
+                                      FireBase DataBase
+    ===============================================================================
+    =============================================================================== -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD-VxPOYuXef5c-_IP07QZQebb7l-Vrlc4",
+    authDomain: "web-shelyl.firebaseapp.com",
+    databaseURL: "https://web-shelyl.firebaseio.com",
+    projectId: "web-shelyl",
+    storageBucket: "web-shelyl.appspot.com",
+    messagingSenderId: "533338937329",
+    appId: "1:533338937329:web:b4774ddc6cb5d63a84d650",
+    measurementId: "G-Z5VRVQL74F"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 <!--     ===============================Goole Font========================== -->
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
