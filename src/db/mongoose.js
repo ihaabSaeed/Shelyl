@@ -1,35 +1,20 @@
 const  mongoose = require('mongoose')
-const validator = require('validator')
 const { request, Router } = require('express')
 
-mongoose.connect('mongodb://127.0.0.1:27017/task-manager-api',{
+mongoose.connect(process.env.MONGODB_URL,{
     useNewUrlParser:true,
-    useCreateIndex:true
+    useCreateIndex:true,
+    useFindAndModify:false
 })
-const User = mongoose.model('User',{
-    name:{
-        type:String,
-        require:true,
-        trim:true
 
-
-    },
-    email:{
-        type:String,
-        required:true,
-        trim:true,
-        lowercase:true,
-        validate(value){
-            if(!validator.isEmail(value))
-            {
-throw new Error('Email Is Invalid')
-            }
-        }
-        
-    },
-    age: {
-        type:Number,
-        validate(value){
-        }
-    }
-})
+// const me = new User({
+//     name:'Ihaab',
+//     age:'19',
+//     email:'ihaab@',
+//     password:'     re32dsfgfdgfsdgfsd        '
+// })
+// me.save().then(()=>{
+// console.log(me)
+// }).catch((error) =>{
+//     console.log('Error ',error)
+// })
